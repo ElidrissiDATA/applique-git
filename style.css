@@ -51,7 +51,7 @@ body {
 /* Champs de saisie */
 .input-group input {
     width: 100%;
-    padding: 10px;    
+    padding: 10px;     
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
@@ -63,7 +63,7 @@ body {
 .input-group input:focus {
     border-color: #007BFF;
     outline: none;
-}
+} 
 
 /* Bouton de soumission */
 .submit-btn {
@@ -97,3 +97,119 @@ body {
         font-size: 20px;
     }
 }
+
+
+ 
+
+
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur de la page de création de compte */
+.signup-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Titre de la page */
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Groupe d'input */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label des inputs */
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Champs de saisie */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Bouton de soumission */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Liens */
+.signup-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+
+/* Ajout de la responsivité */
+@media (max-width: 480px) {
+    .signup-container {
+        padding: 20px;
+    }
+
+    .signup-container h2 {
+        font-size: 20px;
+    }
+}
+
