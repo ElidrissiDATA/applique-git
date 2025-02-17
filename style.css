@@ -91,19 +91,17 @@ body {
 @media (max-width: 480px) {
     .login-container {
         padding: 20px;
-    }
+    }  
 
-    .login-container h2 {
+    .login-container h2 {    
         font-size: 20px;
     }
-}
-
-
- 
-
+}      
+     
+   
 
 /* Reset de base */
-* {
+* {  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -117,7 +115,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 0;    
 }
 
 /* Conteneur de la page de création de compte */
@@ -146,7 +144,7 @@ body {
 
 /* Label des inputs */
 .input-group label {
-    display: block;
+    display: block;   
     font-size: 14px;
     color: #666;
     margin-bottom: 5px;
