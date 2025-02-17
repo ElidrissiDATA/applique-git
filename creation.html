@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">         
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Création de compte</title>          
-    <link rel="stylesheet" href="style.css">     
-</head>          
-<body>     
+    <title>Création de compte</title>               
+    <link rel="stylesheet" href="style.css">                
+</head>              
+<body>      
     <div class="signup-container">            
-        <form action="#" method="POST" class="signup-form">
+        <form action="#" method="POST" class="signup-form">      
             <h2>Créer un compte</h2>
 
             <!-- Champ Nom complet -->
-            <div class="input-group">  
+            <div class="input-group">    
                 <label for="name">Nom complet</label>
                 <input type="text" id="name" name="name" placeholder="Entrez votre nom complet" required>
             </div>
 
-            <!-- Champ Email -->
-            <div class="input-group">            
+            <!-- Champ Email -->            
+            <div class="input-group">              
                 <label for="email">Email</label>              
                 <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
-            </div>        
+            </div>                          
                          
             <!-- Champ Mot de passe -->
-            <div class="input-group">
+            <div class="input-group">    
                 <label for="password">Mot de passe</label>
                 <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
             </div>
@@ -34,6 +34,14 @@
                 <label for="confirm-password">Confirmer le mot de passe</label>
                 <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmez votre mot de passe" required>
             </div>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="genre" value="homme"> Homme
+                </label>
+                <label>
+                    <input type="radio" name="genre" value="femme"> Femme
+                </label>
+            </div>   
 
             <button type="submit" class="submit-btn">Créer un compte</button>
         </form>

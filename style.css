@@ -206,8 +206,70 @@ body {
         padding: 20px;
     }
 
-    .signup-container h2 {
+    .signup-container h2 { 
         font-size: 20px;
-    }
+    }  
+}
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur du formulaire */
+.form-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Titre */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Groupe de boutons radio */
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Style des boutons radio */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style du bouton submit */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #45a049;
+}
+   
+
+         
